@@ -1,4 +1,4 @@
-use 'codeup_test_db';
+USE 'codeup_test_db';
 -- CREATE USER 'codeup_test_user'@'localhost' IDENTIFIED BY 'codeup';
 GRANT ALL ON 'codeup_test_db' TO 'codeup_test_user'@'localhost';
 GRANT CREATE, ALTER, INSERT, DROP ON *.* TO 'codeup_test_user'@'localhost';

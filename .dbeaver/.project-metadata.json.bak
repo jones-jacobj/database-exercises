@@ -1,1 +1,1 @@
-{"resources":{"albums_migration.sql":{"default-datasource":"mysql8-184f2828be8-6f3ddba6e3938c73"}}}
+{"resources":{"albums_migration.sql":{"default-datasource":"mysql8-184f2828be8-6f3ddba6e3938c73","default-catalog":"codeup_test_db"},"albums_seeder.sql":{"default-datasource":"mysql8-184f2828be8-6f3ddba6e3938c73","default-catalog":"codeup_test_db"}}}
