@@ -8,7 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/3a8949d9-b552-4eed-8b38-1cfba0b88f67.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3a8949d9-b552-4eed-8b38-1cfba0b88f67.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/albums_seeder.sql" beforeDir="false" afterPath="$PROJECT_DIR$/albums_seeder.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/select_exercises.sql" beforeDir="false" afterPath="$PROJECT_DIR$/select_exercises.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +43,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "vcs.Git",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -56,13 +56,31 @@
     ]
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Database Script.select_exercises.sql">
     <configuration name="albums_migration.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/albums_migration.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="3a8949d9-b552-4eed-8b38-1cfba0b88f67" />
       <method v="2" />
     </configuration>
+    <configuration name="albums_seeder.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/albums_seeder.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="3a8949d9-b552-4eed-8b38-1cfba0b88f67" />
+      <method v="2" />
+    </configuration>
+    <configuration name="select_exercises.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/select_exercises.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="3a8949d9-b552-4eed-8b38-1cfba0b88f67" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Database Script.select_exercises.sql" />
+        <item itemvalue="Database Script.albums_seeder.sql" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,6 +106,8 @@
       <workItem from="1670652227057" duration="2000" />
       <workItem from="1670949751487" duration="53000" />
       <workItem from="1671030053332" duration="109000" />
+      <workItem from="1671135740296" duration="154000" />
+      <workItem from="1671136025761" duration="2175000" />
     </task>
     <servers />
   </component>
