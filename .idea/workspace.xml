@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3e5f484-c2b3-449a-af29-cda591ac630c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3a8949d9-b552-4eed-8b38-1cfba0b88f67.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3a8949d9-b552-4eed-8b38-1cfba0b88f67.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/albums_migration.sql" beforeDir="false" afterPath="$PROJECT_DIR$/albums_migration.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/albums_seeder.sql" beforeDir="false" afterPath="$PROJECT_DIR$/albums_seeder.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/update_exercises.sql" beforeDir="false" afterPath="$PROJECT_DIR$/update_exercises.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Database Script.update_exercises.sql">
+  <component name="RunManager" selected="Database Script.albums_seeder.sql">
     <configuration name="albums_migration.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/albums_migration.sql" />
       <script-mode>FILE</script-mode>
@@ -82,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Database Script.update_exercises.sql" />
         <item itemvalue="Database Script.albums_seeder.sql" />
+        <item itemvalue="Database Script.update_exercises.sql" />
         <item itemvalue="Database Script.select_exercises.sql" />
       </list>
     </recent_temporary>
@@ -116,7 +116,7 @@
       <workItem from="1671136025761" duration="2721000" />
       <workItem from="1671222206254" duration="207000" />
       <workItem from="1671230939469" duration="42000" />
-      <workItem from="1672681564105" duration="3606000" />
+      <workItem from="1672681564105" duration="4710000" />
     </task>
     <servers />
   </component>

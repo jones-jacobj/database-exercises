@@ -6,5 +6,5 @@ update album set sales = sales * 10;
 select sales from album;
 update album set release_date = release_date-100 where release_date < 1980;
 select release_date from album where release_date < 1980;
-update album set name = "Peter Jackson" where name like "%Jackson";
-select name from album where name like "%Jackson";
+update album set artist = "Peter Jackson" where artist like "%Jackson";
+select artist from album where artist like "%Jackson";
