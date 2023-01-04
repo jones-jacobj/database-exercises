@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3e5f484-c2b3-449a-af29-cda591ac630c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3a8949d9-b552-4eed-8b38-1cfba0b88f67.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3a8949d9-b552-4eed-8b38-1cfba0b88f67.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3a8949d9-b552-4eed-8b38-1cfba0b88f67/storage_v2/_src_/schema/employees.he85nQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3a8949d9-b552-4eed-8b38-1cfba0b88f67/storage_v2/_src_/schema/employees.he85nQ.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_by_exercises.sql" beforeDir="false" afterPath="$PROJECT_DIR$/order_by_exercises.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/where_exercises.sql" beforeDir="false" afterPath="$PROJECT_DIR$/where_exercises.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,11 +55,12 @@
     "RunConfigurationTargetLRU": [
       "3a8949d9-b552-4eed-8b38-1cfba0b88f67/schema/\"information_schema\"",
       "3a8949d9-b552-4eed-8b38-1cfba0b88f67",
-      "3a8949d9-b552-4eed-8b38-1cfba0b88f67/schema/\"codeup_test_db\""
+      "3a8949d9-b552-4eed-8b38-1cfba0b88f67/schema/\"codeup_test_db\"",
+      "3a8949d9-b552-4eed-8b38-1cfba0b88f67/schema/\"employees\""
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Database Script.order_by_exercises.sql">
+  <component name="RunManager" selected="Database Script.where_exercises.sql">
     <configuration name="albums_migration.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/albums_migration.sql" />
       <script-mode>FILE</script-mode>
@@ -86,8 +90,15 @@
       <data-source id="3a8949d9-b552-4eed-8b38-1cfba0b88f67" namespace="schema/&quot;codeup_test_db&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="where_exercises.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/where_exercises.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="3a8949d9-b552-4eed-8b38-1cfba0b88f67" namespace="schema/&quot;employees&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.where_exercises.sql" />
         <item itemvalue="Database Script.order_by_exercises.sql" />
         <item itemvalue="Database Script.albums_seeder.sql" />
         <item itemvalue="Database Script.update_exercises.sql" />
@@ -124,7 +135,9 @@
       <workItem from="1671222206254" duration="207000" />
       <workItem from="1671230939469" duration="42000" />
       <workItem from="1672681564105" duration="4802000" />
-      <workItem from="1672869570125" duration="1657000" />
+      <workItem from="1672869570125" duration="1995000" />
+      <workItem from="1672871750093" duration="877000" />
+      <workItem from="1672873185429" duration="1086000" />
     </task>
     <servers />
   </component>

@@ -1071,7 +1071,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <SourceTextLength>225</SourceTextLength>
     </view>
     <column id="308" parent="299" name="id">
-      <AutoIncrement>1</AutoIncrement>
+      <AutoIncrement>30</AutoIncrement>
       <DataType>int unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
