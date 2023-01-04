@@ -51,12 +51,12 @@
     "RunConfigurationTargetLRU": [
       "3a8949d9-b552-4eed-8b38-1cfba0b88f67/schema/\"information_schema\"",
       "3a8949d9-b552-4eed-8b38-1cfba0b88f67/schema/\"codeup_test_db\"",
-      "3a8949d9-b552-4eed-8b38-1cfba0b88f67",
-      "3a8949d9-b552-4eed-8b38-1cfba0b88f67/schema/\"employees\""
+      "3a8949d9-b552-4eed-8b38-1cfba0b88f67/schema/\"employees\"",
+      "3a8949d9-b552-4eed-8b38-1cfba0b88f67"
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Database Script.limit_exercises.sql">
+  <component name="RunManager" selected="Database Script.group_by_exercises.sql">
     <configuration name="albums_migration.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/albums_migration.sql" />
       <script-mode>FILE</script-mode>
@@ -65,6 +65,12 @@
     </configuration>
     <configuration name="albums_seeder.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/albums_seeder.sql" />
+      <script-mode>FILE</script-mode>
+      <data-source id="3a8949d9-b552-4eed-8b38-1cfba0b88f67" />
+      <method v="2" />
+    </configuration>
+    <configuration name="group_by_exercises.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/group_by_exercises.sql" />
       <script-mode>FILE</script-mode>
       <data-source id="3a8949d9-b552-4eed-8b38-1cfba0b88f67" />
       <method v="2" />
@@ -80,12 +86,6 @@
       <script-mode>FILE</script-mode>
       <method v="2" />
     </configuration>
-    <configuration name="update_exercises.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <script-file value="$PROJECT_DIR$/update_exercises.sql" />
-      <script-mode>FILE</script-mode>
-      <data-source id="3a8949d9-b552-4eed-8b38-1cfba0b88f67" namespace="schema/&quot;codeup_test_db&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="where_exercises.sql" type="DatabaseScript" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/where_exercises.sql" />
       <script-mode>FILE</script-mode>
@@ -94,11 +94,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Database Script.group_by_exercises.sql" />
         <item itemvalue="Database Script.limit_exercises.sql" />
         <item itemvalue="Database Script.where_exercises.sql" />
         <item itemvalue="Database Script.order_by_exercises.sql" />
         <item itemvalue="Database Script.albums_seeder.sql" />
-        <item itemvalue="Database Script.update_exercises.sql" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +133,7 @@
       <workItem from="1672681564105" duration="4802000" />
       <workItem from="1672869570125" duration="1995000" />
       <workItem from="1672871750093" duration="877000" />
-      <workItem from="1672873185429" duration="2135000" />
+      <workItem from="1672873185429" duration="2850000" />
     </task>
     <servers />
   </component>
