@@ -996,80 +996,382 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Current>1</Current>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="289" parent="1" name="information_schema">
+    <schema id="289" parent="1" name="employees">
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </schema>
+    <schema id="290" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="290" parent="1" name="mysql">
+    <schema id="291" parent="1" name="mysql">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="291" parent="1" name="performance_schema">
+    <schema id="292" parent="1" name="performance_schema">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <schema id="292" parent="1" name="sys">
+    <schema id="293" parent="1" name="sys">
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
-    <user id="293" parent="1" name="joe">
+    <user id="294" parent="1" name="joe">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="294" parent="1" name="mysql.infoschema">
+    <user id="295" parent="1" name="mysql.infoschema">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="295" parent="1" name="mysql.session">
+    <user id="296" parent="1" name="mysql.session">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="296" parent="1" name="mysql.sys">
+    <user id="297" parent="1" name="mysql.sys">
       <CanLogin>0</CanLogin>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <user id="297" parent="1" name="root">
+    <user id="298" parent="1" name="root">
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <table id="298" parent="288" name="album">
+    <table id="299" parent="288" name="album">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="299" parent="298" name="id">
+    <table id="300" parent="289" name="departments">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="301" parent="289" name="dept_emp">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="302" parent="289" name="dept_manager">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="303" parent="289" name="employees">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="304" parent="289" name="salaries">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <table id="305" parent="289" name="titles">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <view id="306" parent="289" name="current_dept_emp">
+      <Definer>root@localhost</Definer>
+      <SourceTextLength>378</SourceTextLength>
+    </view>
+    <view id="307" parent="289" name="dept_emp_latest_date">
+      <Definer>root@localhost</Definer>
+      <SourceTextLength>225</SourceTextLength>
+    </view>
+    <column id="308" parent="299" name="id">
       <AutoIncrement>1</AutoIncrement>
       <DataType>int unsigned|0s</DataType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="300" parent="298" name="artist">
+    <column id="309" parent="299" name="artist">
       <DataType>varchar(50)|0s</DataType>
       <Position>2</Position>
     </column>
-    <column id="301" parent="298" name="name">
+    <column id="310" parent="299" name="name">
       <DataType>varchar(50)|0s</DataType>
       <Position>3</Position>
     </column>
-    <column id="302" parent="298" name="release_date">
+    <column id="311" parent="299" name="release_date">
       <DataType>int|0s</DataType>
       <Position>4</Position>
     </column>
-    <column id="303" parent="298" name="sales">
+    <column id="312" parent="299" name="sales">
       <DataType>float|0s</DataType>
       <Position>5</Position>
     </column>
-    <column id="304" parent="298" name="genre">
+    <column id="313" parent="299" name="genre">
       <DataType>varchar(50)|0s</DataType>
       <Position>6</Position>
     </column>
-    <index id="305" parent="298" name="PRIMARY">
+    <index id="314" parent="299" name="PRIMARY">
       <ColNames>id</ColNames>
       <Type>btree</Type>
       <Unique>1</Unique>
     </index>
-    <key id="306" parent="298" name="PRIMARY">
+    <key id="315" parent="299" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <Primary>1</Primary>
       <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
     </key>
+    <column id="316" parent="300" name="dept_no">
+      <DataType>char(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="317" parent="300" name="dept_name">
+      <DataType>varchar(40)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <index id="318" parent="300" name="PRIMARY">
+      <ColNames>dept_no</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="319" parent="300" name="dept_name">
+      <ColNames>dept_name</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="320" parent="300" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <key id="321" parent="300" name="dept_name">
+      <UnderlyingIndexName>dept_name</UnderlyingIndexName>
+    </key>
+    <column id="322" parent="301" name="emp_no">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="323" parent="301" name="dept_no">
+      <DataType>char(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="324" parent="301" name="from_date">
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="325" parent="301" name="to_date">
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="326" parent="301" name="dept_emp_ibfk_1">
+      <ColNames>emp_no</ColNames>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>emp_no</RefColNames>
+      <RefTableName>employees</RefTableName>
+    </foreign-key>
+    <foreign-key id="327" parent="301" name="dept_emp_ibfk_2">
+      <ColNames>dept_no</ColNames>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>dept_no</RefColNames>
+      <RefTableName>departments</RefTableName>
+    </foreign-key>
+    <index id="328" parent="301" name="PRIMARY">
+      <ColNames>emp_no
+dept_no</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="329" parent="301" name="dept_no">
+      <ColNames>dept_no</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="330" parent="301" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="331" parent="302" name="emp_no">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="332" parent="302" name="dept_no">
+      <DataType>char(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="333" parent="302" name="from_date">
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="334" parent="302" name="to_date">
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="335" parent="302" name="dept_manager_ibfk_1">
+      <ColNames>emp_no</ColNames>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>emp_no</RefColNames>
+      <RefTableName>employees</RefTableName>
+    </foreign-key>
+    <foreign-key id="336" parent="302" name="dept_manager_ibfk_2">
+      <ColNames>dept_no</ColNames>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>dept_no</RefColNames>
+      <RefTableName>departments</RefTableName>
+    </foreign-key>
+    <index id="337" parent="302" name="PRIMARY">
+      <ColNames>emp_no
+dept_no</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <index id="338" parent="302" name="dept_no">
+      <ColNames>dept_no</ColNames>
+      <Type>btree</Type>
+    </index>
+    <key id="339" parent="302" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="340" parent="303" name="emp_no">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="341" parent="303" name="birth_date">
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="342" parent="303" name="first_name">
+      <DataType>varchar(14)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="343" parent="303" name="last_name">
+      <DataType>varchar(16)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <column id="344" parent="303" name="gender">
+      <DataType>enum(&apos;M&apos;, &apos;F&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+      <Position>5</Position>
+    </column>
+    <column id="345" parent="303" name="hire_date">
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>6</Position>
+    </column>
+    <index id="346" parent="303" name="PRIMARY">
+      <ColNames>emp_no</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="347" parent="303" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="348" parent="304" name="emp_no">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="349" parent="304" name="salary">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="350" parent="304" name="from_date">
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="351" parent="304" name="to_date">
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="352" parent="304" name="salaries_ibfk_1">
+      <ColNames>emp_no</ColNames>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>emp_no</RefColNames>
+      <RefTableName>employees</RefTableName>
+    </foreign-key>
+    <index id="353" parent="304" name="PRIMARY">
+      <ColNames>emp_no
+from_date</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="354" parent="304" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="355" parent="305" name="emp_no">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="356" parent="305" name="title">
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="357" parent="305" name="from_date">
+      <DataType>date|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <column id="358" parent="305" name="to_date">
+      <DataType>date|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <foreign-key id="359" parent="305" name="titles_ibfk_1">
+      <ColNames>emp_no</ColNames>
+      <OnDelete>cascade</OnDelete>
+      <RefColNames>emp_no</RefColNames>
+      <RefTableName>employees</RefTableName>
+    </foreign-key>
+    <index id="360" parent="305" name="PRIMARY">
+      <ColNames>emp_no
+title
+from_date</ColNames>
+      <Type>btree</Type>
+      <Unique>1</Unique>
+    </index>
+    <key id="361" parent="305" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PRIMARY</UnderlyingIndexName>
+    </key>
+    <column id="362" parent="306" name="emp_no">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="363" parent="306" name="dept_no">
+      <DataType>char(4)|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="364" parent="306" name="from_date">
+      <DataType>date|0s</DataType>
+      <Position>3</Position>
+    </column>
+    <column id="365" parent="306" name="to_date">
+      <DataType>date|0s</DataType>
+      <Position>4</Position>
+    </column>
+    <column id="366" parent="307" name="emp_no">
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+    </column>
+    <column id="367" parent="307" name="from_date">
+      <DataType>date|0s</DataType>
+      <Position>2</Position>
+    </column>
+    <column id="368" parent="307" name="to_date">
+      <DataType>date|0s</DataType>
+      <Position>3</Position>
+    </column>
   </database-model>
 </dataSource>

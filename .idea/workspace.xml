@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3e5f484-c2b3-449a-af29-cda591ac630c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/3a8949d9-b552-4eed-8b38-1cfba0b88f67.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/3a8949d9-b552-4eed-8b38-1cfba0b88f67.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/albums_seeder.sql" beforeDir="false" afterPath="$PROJECT_DIR$/albums_seeder.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/update_exercises.sql" beforeDir="false" afterPath="$PROJECT_DIR$/update_exercises.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,33 +28,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenDatabaseViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/jonesj/IdeaProjects/database-exercises",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/jonesj/IdeaProjects/database-exercises&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ],
-    "RunConfigurationTargetLRU": [
-      "3a8949d9-b552-4eed-8b38-1cfba0b88f67/schema/\"information_schema\"",
-      "3a8949d9-b552-4eed-8b38-1cfba0b88f67",
-      "3a8949d9-b552-4eed-8b38-1cfba0b88f67/schema/\"codeup_test_db\""
+    &quot;RunConfigurationTargetLRU&quot;: [
+      &quot;3a8949d9-b552-4eed-8b38-1cfba0b88f67/schema/\&quot;information_schema\&quot;&quot;,
+      &quot;3a8949d9-b552-4eed-8b38-1cfba0b88f67&quot;,
+      &quot;3a8949d9-b552-4eed-8b38-1cfba0b88f67/schema/\&quot;codeup_test_db\&quot;&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Database Script.albums_seeder.sql">
     <configuration name="albums_migration.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
       <script-file value="$PROJECT_DIR$/albums_migration.sql" />
@@ -116,7 +116,8 @@
       <workItem from="1671136025761" duration="2721000" />
       <workItem from="1671222206254" duration="207000" />
       <workItem from="1671230939469" duration="42000" />
-      <workItem from="1672681564105" duration="4710000" />
+      <workItem from="1672681564105" duration="4802000" />
+      <workItem from="1672869570125" duration="938000" />
     </task>
     <servers />
   </component>
